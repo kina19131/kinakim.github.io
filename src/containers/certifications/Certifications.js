@@ -6,6 +6,11 @@ import CertificationCard from "../../components/certificationCard/CertificationC
 
 function Certifications(props) {
   const theme = props.theme;
+  // Check if there are certifications to display
+  if (!certifications.certifications.length) {
+    return null; // If there are no certifications, render nothing
+  }
+
   return (
     <div className="main" id="certs">
       <div className="certs-header-div">

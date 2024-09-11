@@ -106,4 +106,10 @@
   .repo-creation-date {
     font-size: 14px;
   }
+
+  .language-item {
+    font-size: 0.6em; /* 0.7x smaller than the main text */
+    color: darkgray; /* Dark gray color */
+    margin-right: 16px; /* Add some space between items */
+  }
 }

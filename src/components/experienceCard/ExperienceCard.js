@@ -4,6 +4,17 @@ import "./ExperienceCard.css";
 function ExperienceCard(props) {
   const experience = props.experience;
   const theme = props.theme;
+
+  // Function to render newlines as <br> tags
+  const renderDescriptionWithLineBreaks = (description) => {
+    return description.split("\n").map((line, index) => (
+      <span key={index}>
+        {line}
+        <br />
+      </span>
+    ));
+  };
+
   return (
     <div
       className="experience-card"
@@ -57,7 +68,7 @@ function ExperienceCard(props) {
           className="experience-card-description"
           style={{ color: theme.text }}
         >
-          {experience["description"]}
+          {renderDescriptionWithLineBreaks(experience.description)}
         </p>
       </div>
     </div>
