@@ -46,7 +46,7 @@ function Projects(props) {
       </div>
       <div className="repo-cards-div-main">
         {projects.data.map((repo) => {
-          return <ProjectCard key={repo.id} repo={repo} theme={theme} />;
+          return <ProjectCard repo={repo} theme={theme} />;
         })}
       </div>
       <br />
@@ -55,7 +55,7 @@ function Projects(props) {
       <a
         {...styles}
         className="general-btn"
-        href="https://github.com/harikanani"
+        href="https://github.com/kina19131"
       >
         More Projects (Github)
       </a>

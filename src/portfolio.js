@@ -391,11 +391,9 @@ const projects = {
       languages: [
         {
           name: "Flutter",
-          iconifyClass: "logos-flutter",
         },
         {
           name: "NodeJs",
-          iconifyClass: "logos-nodejs",
         },
       ],
       links: [

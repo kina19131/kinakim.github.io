@@ -48,30 +48,9 @@ export default function ProjectCard({ repo, theme }) {
               <ProjectLanguages logos={repo.languages} />
             </div>
             <div className="repo-details Rightitem">
-              <ProjectLinks logos={repo.links} />
+              {/* <ProjectLinks logos={repo.links} /> */}
+              <ProjectLinks logos={repo.languages} />
             </div>
-          </div>
-
-          {/* Displaying languages as text instead of icons */}
-          <div
-            className="languages"
-            style={{
-              textAlign: "left", // Align all text to the left
-            }}
-          >
-            {repo.languages.map((language, index) => (
-              <span
-                key={index}
-                className="language-item"
-                style={{
-                  fontSize: "0.7em", // 0.7x smaller than main description
-                  color: "darkgray", // Dark gray color
-                  marginRight: "10px",
-                }}
-              >
-                {language.name}
-              </span>
-            ))}
           </div>
         </div>
       </Fade>

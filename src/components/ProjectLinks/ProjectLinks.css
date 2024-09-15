@@ -93,4 +93,18 @@
   .repo-creation-date {
     font-size: 14px;
   }
+
+  .project-languages-main-div {
+    text-align: left;
+  }
+
+  .dev-names-languages {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .project-language-name {
+    font-size: 0.7em; /* 0.7x scale of the default text */
+    display: inline;
+  }
 }
