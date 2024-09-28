@@ -9,7 +9,7 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello 👋.",
+  title: "Hello",
   title2: "Kina",
   logo_name: "kina.k()",
   nickname: "Kina / Kim",
@@ -25,7 +25,7 @@ const socialMediaLinks = {
   github: "https://github.com/kina19131",
   linkedin: "https://www.linkedin.com/in/giyeonkinakim/",
   gmail: "kina19131@gmail.com",
-  gitlab: "https://gitlab.com/harikanani",
+  // gitlab: "https://gitlab.com/harikanani",
   // // facebook: "https://www.facebook.com/harikrishan.kanani/",
   // twitter: "https://twitter.com/Harikrushn9",
   // instagram: "https://www.instagram.com/hari_kanani_/",
